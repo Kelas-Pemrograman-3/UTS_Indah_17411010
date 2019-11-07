@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Pertama</title>
+    <link rel="stylesheet" type="text/css" href="input.css">
+</head>
+<nav id="menu">
+    <ul>
+       <div id="heading">
+           <a href="#">UBL</a></li>
+       </div>
+     
+     
+       <li><a href="beranda.html">Beranda</a></li>
+       <li><a href="#">Data</a>
+           <ul>
+               <li> <a href="tblmhs.html">Data Mahasiswa</a></li>
+               <li> <a href="input.html">Input Data</a></li>
+           </ul>
+       </li>
+       <li><a href="Profil.html">Profil</a>
+    <ul>
+
+    </ul></li>
+             <li><a href="login.html">Logout</a></li>
+           
+       </li>
+   </ul>
+</nav>
+
+<body>
+
+                 
+            <div class="container">
+                <div class="content">
+                <div class="badan">
+                    <div class="kepala">
+                        <img src="b.jpg" align="left" width=25%>
+                        <img src="b.jpg" align="right" width=25%>
+                        <br><p class="kepalatext"> Data Mahasiswa </p>
+        
+                    </div>
+                    <div class="bingkai">
+                        <form name="cake" action="" method="get" enctype="multipart/form-data">
+                            <table width="550" border="0">
+                                            
+                            <tr>
+                                <td>Nama Lengkap</td>
+                                <td><input class="nama" type="text" name="namadepan" id="name" placeholder="Nama"></td>
+                            </tr>
+                            <tr>
+                                <td>NPM</td>
+                                <td><input class="npm" type="number" name="npm" id="name" placeholder="NPM"></td>
+                             </tr>
+                           
+                             <tr>
+                                <td>Jenis Kelamin</td>
+                                <td>
+                                    <label class="jeniskelamin">
+                                    <input type="radio" name="gender" id="laki" value="laki-laki">Laki-Laki</label>
+                                    <label class="jeniskelamin">
+                                    <input type="radio" name="gender" id="laki" value="perempuan">Perempuan</label>
+                                </td>
+                            </tr>
+                                            
+                            <tr>
+                                <td>Tanggal Lahir</td>
+                                <td>
+                                   
+                            <div>
+                            <select class="tgllahir" name="tanggal">
+                                <option value="Tanggal" selected>Tanggal</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <select class="tgllahir" name="Bulan">
+                                    <option value="Bulan" selected>Bulan</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    </select>
+                                     <select class="tgllahir" name="Tahun">
+                                    <option value="Tahun" selected>Tahun</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+
+                                    </select>
+                           
+                            </div>
+                            </td>
+                            </tr>
+                            
+                                             <tr>
+                                <td>Agama</td>
+                                <td>
+                                    <label class="agama">
+                                    <input type="radio" name="agm" id="islm" value="islm">Islam</label>
+                                    <label class="agama">
+                                    <input type="radio" name="agm" id="kris" value="kris">Kristen</label>
+                                                           <label class="agama">
+                                    <input type="radio" name="agm" id="hin" value="hin">Hindu</label>
+                                                           <label class="agama">
+                                    <input type="radio" name="agm" id="bud" value="bud">Budha</label>
+                                </td>
+                            </tr>
+                                            
+                                            
+                                <td>Telepon</td>
+                                <td><input class="tlp" type="text" name="tlp" id="tlp" placeholder="Telepon"></td>
+                            </tr>
+                            <tr>
+                                            
+                                              <td>Email</td>
+                                <td><input class="tlp" type="text" name="tlp" id="tlp" placeholder="Email"></td>
+                            </tr>
+                            <tr>
+                                            
+                                <td>Alamat</td>
+                                <td>
+                                    <textarea class="alamat" type="textarea" name="Alamat" id="textarea" placeholder="Alamat" cols="44" rows="5"></textarea>
+                                </td>
+                            </tr>
+                                            
+                                                                   
+                            <tr>
+                                <td>
+                                <button class="submit" type="submit" value="Sub">Submit</button>
+                                                                   </td>
+                            </tr>
+                            </table>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
